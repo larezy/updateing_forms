@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+input,
+button {
+  padding: .4rem;
+  margin-bottom:1rem;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  width: 70%;
+}
+
+li {
+  display: block;
+  padding: .7rem;
+  background: rgb(169, 230, 130);
+  margin-bottom: .1em;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.updated {
+  color: white;
+  background: rgb(226, 112, 158);
+}
